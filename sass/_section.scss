@@ -1,0 +1,159 @@
+.achievmentTop {
+  position: relative;
+  left: 10%;
+  top: 135px;
+  max-width: 1170px;
+
+  &__image {
+    max-width: 630px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__first {
+    display: flex;
+    gap: 70px;
+
+    &__building {
+      flex-grow: 1;
+    }
+  }
+}
+
+.achievmentBottom {
+  position: relative;
+  left: 10%;
+  margin-top: 140px;
+  max-width: 1200px;
+
+  &__image {
+    max-width: 630px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__second {
+    display: flex;
+    gap: 70px;
+    padding-top: 210px;
+
+    &__building {
+      flex-grow: 1;
+    }
+  }
+}
+
+.card {
+  width: 370px;
+  min-height: 515px;
+  background-color: white;
+  margin-left: 30px;
+
+  &__info {
+    padding: 0 20px 0 20px;
+  }
+}
+
+.author {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.Gallery {
+  display: flex;
+  justify-content: center;
+  padding-top: 89px;
+
+  &__image {
+    flex-grow: 1;
+  }
+
+  &__main {
+    flex-grow: 1;
+
+    &__photo {
+      max-width: 612px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__collage {
+    padding-left: 10px;
+  }
+
+  &__picturesTop {
+    display: flex;
+
+    &__left {
+      padding-right: 9px;
+      max-width: 612px;
+      width: 100%;
+      height: auto;
+    }
+
+    &__right {
+      max-width: 612px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__picturesBottom {
+    display: flex;
+    padding-top: 7px;
+
+    &__left {
+      padding-right: 9px;
+      max-width: 612px;
+      width: 100%;
+      height: auto;
+    }
+
+    &__right {
+      max-width: 612px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.form {
+  max-width: 770px;
+  height: 450px;
+  position: relative;
+  background-color: #ffff;
+  margin-left: auto;
+  margin-right: auto;
+  top: 410px;
+
+  &__inform {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__pd {
+    padding-top: 1px;
+  }
+
+  &__icon {
+    padding-top: 6px;
+  }
+
+  &__details {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__line {
+    border: 1px solid;
+    width: 100px;
+    margin-top: 60px;
+    border: 1px solid #2C4058;
+  }
+
+  &__aboutUs {
+    padding-left: 60px;
+  }
+}
