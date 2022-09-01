@@ -12,7 +12,7 @@ Montichello is a simple website of construction company.
 - HTML
 - CSS
 - jQuery (Slick slider)
-- Live Server (
+- Prepros (
     The app embed for development a static connect server with livereload plugged. So each time you start the app, you get automatic refresh in the browser whenever you update a file.)
 
 
